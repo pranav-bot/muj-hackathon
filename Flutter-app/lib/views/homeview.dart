@@ -143,11 +143,11 @@ class _HomePageViewState extends State<HomePageView> {
           Container(
             decoration: BoxDecoration(
                 color: Colors.green, borderRadius: BorderRadius.circular(25)),
-            padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 50),
+            padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 50),
             child: TextButton(
               onPressed: () {},
               child: const Text(
-                "Update your\nmdeical reccords\n->",
+                "Consult a\nProfessional\n->",
                 style: TextStyle(color: Colors.white),
               ),
             ),
